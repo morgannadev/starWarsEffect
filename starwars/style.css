@@ -8,14 +8,14 @@ body {
   .star-wars {
       display: flex;
       justify-content: center;
-      height: 800px;
-      perspective: 400px;
+      height: 1000px;
+      perspective: 500px;
       color: #feda4a;
       font-family: 'Pathway Gothic One', sans-serif;
-      font-size: 500%;
-      font-weight: 600;
-      letter-spacing: 6px;
-      line-height: 150%;
+      font-size: 550%;
+      font-weight: bold;
+      letter-spacing: 10px;
+      line-height: 180%;
       text-align: justify;
   }
 
@@ -31,7 +31,7 @@ body {
           transform: rotateX(20deg) translateZ(0);
       }
       100% {
-          top: -6000px;
+          top: -7000px;
           transform: rotateX(25deg) translateZ(-2500px);
       }
   }
