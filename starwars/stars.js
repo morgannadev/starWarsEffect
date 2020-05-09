@@ -8,7 +8,7 @@ function draw(){
 }
 
 var sky = {
-  quantStars: 200,
+  quantStars: 400,
   canvas: null,
   ctx: null,
   paint: function(canvas) {
@@ -32,8 +32,8 @@ var sky = {
     this.ctx.translate(posX, posY);
     var escala = Math.random()*1.5;
     this.ctx.scale(escala, escala);
-    var raioMax = 2;
-    var raioMin = 2;
+    var raioMax = 1;
+    var raioMin = 1;
     this.ctx.beginPath();
     this.ctx.rotate(Math.random());
     this.ctx.moveTo(raioMax, 0);
@@ -51,3 +51,7 @@ var sky = {
     this.ctx.restore();
   }
 }
+
+window.setTimeout(function() {
+    document.getElementById("star-wars").style.visibility = "hidden";
+}, 55000)
