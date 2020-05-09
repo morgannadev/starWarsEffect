@@ -4,3 +4,17 @@ body {
     overflow: hidden;
     background: #000;
   }
+
+  .star-wars {
+      display: flex;
+      justify-content: center;
+      height: 800px;
+      perspective: 400px;
+      color: #feda4a;
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size: 500%;
+      font-weight: 600;
+      letter-spacing: 6px;
+      line-height: 150%;
+      text-align: justify;
+  }
